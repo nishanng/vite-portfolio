@@ -1,0 +1,96 @@
+/* AboutMe.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* About Me Section */
+#about-me {
+  padding: 0 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  min-height: 80vh;
+}
+
+.about-me-text {
+  flex: 0 0 60% ;
+}
+
+.about-me-text h2 {
+  font-size: 2.5rem;
+  color: #a17255;
+  margin-bottom: 1rem;
+  font-family: 'Roboto Slab', serif;
+}
+
+.about-me-text p {
+  margin-top: 1rem;
+  margin-right: 2rem;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #b8c5d2;
+}
+
+.highlight-name {
+  color: #87d6b8 ;
+  font-weight: bold;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+  gap: 20px;
+  align-items: center;
+  margin-top: 2rem;
+}
+.about-me-photo {
+  flex: 1; 
+  position: relative;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.photo-frame {
+  width: 100%; 
+  padding-top: 100%; 
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
+  transition: all 0.4s ease-in-out;
+}
+
+.photo-frame:hover {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  transform: scale(1.1);
+}
+
+.photo-frame img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;
+}
+
+@keyframes dynamic-frame {
+  0% {
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translateY(-5px) rotate(-2deg) scale(1.02);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+}
+

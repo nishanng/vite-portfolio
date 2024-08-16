@@ -1,0 +1,30 @@
+.scroll-indicator {
+  position: absolute;
+  bottom: 7rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow {
+  width: 3rem;
+  height: 3rem;
+  border: 0.10rem solid currentColor;
+  border-left: none;
+  border-top: none;
+  border-right: 0.10rem solid currentColor;
+  transform: rotate(45deg);
+  animation: arrowAnimation 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes arrowAnimation {
+  from {
+    transform: rotate(45deg) translateY(0);
+  }
+  to {
+    transform: rotate(45deg) translateY(-3px);
+  }
+}

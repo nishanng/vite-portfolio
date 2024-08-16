@@ -1,0 +1,62 @@
+.
+├── index.html
+├── package-lock.json
+├── package.json
+├── project_structure.txt
+├── public
+│   ├── custom-cursor.svg
+│   ├── self_portrait.jpg
+│   └── vite.svg
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── assets
+│   │   ├── Fortinet.png
+│   │   └── react.svg
+│   ├── components
+│   │   ├── About
+│   │   │   ├── AboutMe.css
+│   │   │   ├── AboutMe.jsx
+│   │   │   ├── Connect.css
+│   │   │   ├── Connect.jsx
+│   │   │   ├── DownloadButton.css
+│   │   │   └── DownloadButton.jsx
+│   │   ├── AnimatedTitle
+│   │   │   └── AnimatedTitle.jsx
+│   │   ├── Breadcrumbs
+│   │   │   ├── IconBreadCrumbs.css
+│   │   │   └── IconBreadCrumbs.jsx
+│   │   ├── Certifications.css
+│   │   ├── Certifications.jsx
+│   │   ├── CustomButton
+│   │   │   ├── CustomButton.css
+│   │   │   └── CustomButton.jsx
+│   │   ├── Education
+│   │   │   ├── Education.css
+│   │   │   └── Education.jsx
+│   │   ├── HeroSection
+│   │   │   ├── HeroSection.css
+│   │   │   ├── HeroSection.jsx
+│   │   │   ├── ScrollIndicator.css
+│   │   │   └── ScrollIndicator.jsx
+│   │   ├── Projects
+│   │   │   ├── GradientButton.css
+│   │   │   ├── GradientButton.jsx
+│   │   │   ├── ProjectCard.css
+│   │   │   ├── ProjectCard.jsx
+│   │   │   ├── Projects.css
+│   │   │   └── Projects.jsx
+│   │   ├── Skills
+│   │   │   ├── Skills.css
+│   │   │   └── Skills.jsx
+│   │   └── SvgAnimation
+│   │       ├── SvgAnimation.css
+│   │       └── SvgAnimation.jsx
+│   ├── index.css
+│   └── main.jsx
+├── vite.config.js
+├── vite.config.js.timestamp-1683443777124-822475631ad7d.mjs
+├── vite.config.js.timestamp-1684057519190-859c00ed3c26.mjs
+└── vite.config.js.timestamp-1684060334187-2820354f8fea9.mjs
+
+13 directories, 46 files
