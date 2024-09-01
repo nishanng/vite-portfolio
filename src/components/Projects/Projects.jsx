@@ -12,6 +12,7 @@ const Projects = forwardRef((_, ref) => {
         <div className="projects-container">
               <ProjectCard
         imgSrc="https://via.placeholder.com/150" 
+        
         title="Firewall HA Configuration"
         githubRepo="https://github.com/your-repo"
         prompt="Firewall HA Configuration"
