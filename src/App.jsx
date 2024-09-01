@@ -6,7 +6,6 @@ import './components/About/AboutMe.css';
 import CustomButton from './components/CustomButton/CustomButton';
 import IconBreadcrumbs from './components/Breadcrumbs/IconBreadCrumbs';
 import SvgAnimation from './components/SvgAnimation/SvgAnimation';
-import Projects from './components/Projects/Projects';
 import './App.css';
 import Skills from './components/Skills/Skills';
 import GradientButton from './components/Projects/GradientButton'; 
@@ -25,8 +24,6 @@ function App() {
         <SvgAnimation />
       </div>
       <AboutMe />
-      <Projects ref={projectsRef} />
-      <GradientButton buttonText={ ">> More on Github <<" }/>
       <Skills />
     </div>
   );
