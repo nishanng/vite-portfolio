@@ -32,7 +32,7 @@ const AboutMe = () => {
           <h2>About Me</h2>
           <p>I'm Nishan Gautam, an individual who loves the tech world and is currently learning the depths of networking and security along with AI.</p>
           <p> Through this website, I wanted to share some of the knowledge I have gained while working on various personal IT projects.</p>
-          <p> Feel free to connect with me if you find any value from this website and want to discuss more on any cool ideas that you might have.😊 </p>
+          <p> Feel free to connect with me if you find any value from this website and want to discuss more on any cool ideas that you might have.</p>
           <div className="buttons-wrapper">
             <Connect />
             <DownloadButton />
