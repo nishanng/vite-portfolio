@@ -40,7 +40,7 @@ const AboutMe = () => {
         </div>
         <div className="about-me-photo">
           <div className="photo-frame">
-            <img src="/self_portrait.jpg" alt="Portrait" />
+            <img src="/self_portrait.png" alt="Portrait" />
           </div>
           
         </div>       
