@@ -9,10 +9,10 @@ Please follow the steps below to check how it looks. 🚀
 
 Ensure you have the following installed:
 
- 🟢 [Node.js](https://nodejs.org/ (version 16 or above recommended)
+- 🟢 [Node.js](version 16 or above recommended)
 - 📦 [npm]
 - 🖇️ [Git]
-- 🐳 [Docker](https://www.docker.com/) (Optional, for containerized deployment)
+- 🐳 [Docker](Optional, for containerized deployment)
 
 ## Webapp deployment ##
  
@@ -21,7 +21,7 @@ Ensure you have the following installed:
   3. npm install 
   4. npm run dev
 
-> This exposes the application to localhost:5173, which you could access and check out.
+> This exposes the application to localhost:5173, which you can access and review.
 
 
      
