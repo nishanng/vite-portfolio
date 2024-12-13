@@ -1,7 +1,7 @@
 # 🌟 Vite Portfolio
 
-Hi! 👋 This is a website that I am working on — thanks for dropping by! 🙏  
-Please follow the steps below to check how it looks. 🚀
+Hi! 👋 Thanks for dropping by! __ This is my portfolio website I am working on in my free time __
+Please follow the steps below to run it in your system. 
 
 ---
 
