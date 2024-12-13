@@ -1,4 +1,4 @@
-# 🌟 Vite Portfolio
+# 🌟 Personal Website
 
 Hi! 👋 Thanks for dropping by! __ This is my portfolio website I am working on in my free time __
 Please follow the steps below to run it in your system. 
